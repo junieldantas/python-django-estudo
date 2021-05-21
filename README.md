@@ -1,11 +1,30 @@
-django-admin startproject devpro .
+# Url Reducer
 
-python manage.py runserver
+Redutor de URL com Python e Django
 
-python ../manage.py startapp encurtador
+## Django
+Criar Projeto Django
 
-python manage.py createsuperuser
+`django-admin startproject devpro .`
 
-python manage.py makemigrations
- 
-python manage.py migrate
+Criar conta para acesso ao django
+
+`python manage.py createsuperuser`
+
+## Servidor Local
+Executando Servidor Local
+
+`python manage.py runserver`
+
+## Comandos
+Criando Modulo dentro do Projeto
+
+`python ../manage.py startapp encurtador`
+
+Gerar Migrations
+
+`python manage.py makemigrations -n nome_migration`
+
+Executar Migrations
+
+`python manage.py migrate`
